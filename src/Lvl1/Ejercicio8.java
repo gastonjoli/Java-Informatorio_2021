@@ -6,7 +6,7 @@ Nombre y Apellido :
 Edad :
 Dirección :
 Ciudad :
-Luego imprimirá el siguiente mensaje:
+Luego imprimirá el siguiente mensaje:.
 {Ciudad} - {Dirección} - {Edad} - {Nombre y Apellido} */
 
 import java.util.Scanner;

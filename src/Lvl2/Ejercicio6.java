@@ -9,7 +9,7 @@ valorPorHora
 Todos los empleados están cargados en un Set (HashSet), se desea
 calcular el sueldo (horasTrabajadas x valorPorHora) de toda esa lista para
 luego almacenar en un Map (o Diccionario) donde la clave (key) es el dni y el
-valor (value) es el sueldo calculado.
+valor (value) es el sueldo calculado..
  */
 
 
@@ -55,10 +55,9 @@ public class Ejercicio6 {
 
 class Empleado {
 
-    String nombre;
-    String dni;
-    int horasTrabajadas;
-    int valorPorHora;
+    int valorPorHora, horasTrabajadas;
+    String nombre, dni;
+
 
     public Empleado(String nombre, String dni, int horasTrabajadas, int valorPorHora){
 

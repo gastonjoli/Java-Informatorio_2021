@@ -3,7 +3,7 @@ package Lvl2;
 /* Ejercicio 4:
 Cargar un arrayList con 12 nombres de
 estudiantes (String), luego separarlos
-en 3 cursos (3 arrayList) e imprimir dichos cursos.
+en 3 cursos (3 arrayList) e imprimir dichos cursos..
  */
 import java.util.ArrayList;
 import java.util.List;

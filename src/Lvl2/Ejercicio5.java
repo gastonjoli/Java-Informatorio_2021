@@ -35,9 +35,6 @@ public class Ejercicio5 {
         HorasHombre.add(320);
 
 
-
-        // calculando el total de la dos lista y agregando a otra lista
-
         for (int i = 0 ;  i < horasTrabajadas.size() ; ++i){
 
             int t = horasTrabajadas.get(i) * HorasHombre.get(i);

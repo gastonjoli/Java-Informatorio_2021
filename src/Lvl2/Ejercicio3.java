@@ -7,7 +7,7 @@ orden inverso (reverse), desordenar (mezclar) el arrayList y volver a imprimir.
 
 Ayuda: ArrayList implementa la interface Collection, existe
 algún método que me permita hacer la operación sort (mezclar) aleatoriamente?
-Idem para el reverso
+Idem para el reverso.
  */
 
 import java.util.ArrayList;

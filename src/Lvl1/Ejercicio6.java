@@ -4,7 +4,7 @@ package Lvl1;
 /*EJERCICIO 6:
  Se desea una aplicación que solicite
  2 números enteros y realice la operación
- de potencia (sin uso de librerías).
+ de potencia (sin uso de librerías)..
  */
 import java.util.Scanner;
 
