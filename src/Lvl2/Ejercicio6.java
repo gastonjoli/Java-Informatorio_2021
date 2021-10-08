@@ -26,7 +26,7 @@ public class Ejercicio6 {
 
     public static void main(String[] args) {
 
-        Set<Empleado> empleados = new HashSet<Empleado>();
+        Set<Empleado> empleados = new HashSet<>();
         Map<String, Integer> sueldoTotal = new HashMap<>();
 
 
@@ -70,7 +70,7 @@ class Empleado {
 
     @Override
     public String toString() {
-        return   this.nombre + " - " + this.dni + " - " + String.valueOf(this.horasTrabajadas + " - " + this.valorPorHora) ;
+        return this.nombre + " - " + this.dni + " - " + this.horasTrabajadas + " - " + this.valorPorHora;
     }
 
     public int sueldo(){

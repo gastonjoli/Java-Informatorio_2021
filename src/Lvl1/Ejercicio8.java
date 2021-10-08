@@ -2,7 +2,7 @@ package Lvl1;
 
 /* EJERCICIO 8:
 Crear una aplicación que solicite de entrada los datos de una persona en este orden:
-Nombre y Apellido :0
+Nombre y Apellido :
 Edad :
 Dirección :
 Ciudad :
@@ -28,7 +28,7 @@ public class Ejercicio8 {
          System.out.println("Ciudad: ");
          String Ciudad = scan.nextLine();
 
-         System.out.print(NombreYApellido + " - " + Edad + " - "+ Ciudad + " - " + NombreYApellido);
+         System.out.print(Ciudad + " - " + Direccion+ " - "+ Edad + " - " + NombreYApellido);
 
 
 
