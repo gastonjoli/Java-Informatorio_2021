@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 /* EJERCICIO 7:
 Realizar un programa que dado un String de entrada
- en minúsculas lo convierta por completo a mayúsculas.
-  Sin uso de métodos o librerías que realicen toUppercase()
+en minúsculas lo convierta por completo a mayúsculas.
+Sin uso de métodos o librerías que realicen toUppercase()
  */
 public class Ejercicio7 {
 

@@ -1,8 +1,8 @@
 package Lvl1;
 /* EJERCICIO 5:
 Se desea una aplicación que solicite 2 números
- enteros y realice la operación de multiplicación
- por sumas sucesivas (sin uso de librerías).
+enteros y realice la operación de multiplicación
+por sumas sucesivas (sin uso de librerías).
  */
 
 import java.util.Scanner;

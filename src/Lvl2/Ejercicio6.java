@@ -8,8 +8,8 @@ horasTrabajadas
 valorPorHora
 Todos los empleados están cargados en un Set (HashSet), se desea
 calcular el sueldo (horasTrabajadas x valorPorHora) de toda esa lista para
- luego almacenar en un Map (o Diccionario) donde la clave (key) es el dni y el
-  valor (value) es el sueldo calculado.
+luego almacenar en un Map (o Diccionario) donde la clave (key) es el dni y el
+valor (value) es el sueldo calculado.
  */
 
 
@@ -31,8 +31,8 @@ public class Ejercicio6 {
 
 
 
-        Empleado e1 = new Empleado("Jose", "4500", 45, 600);
-        Empleado e2 = new Empleado("Carlos", "2547", 30, 687);
+        Empleado e1 = new Empleado("Brian", "7200", 50, 350);
+        Empleado e2 = new Empleado("Jose", "3500", 35, 548);
 
         empleados.add(e1);
         empleados.add(e2);

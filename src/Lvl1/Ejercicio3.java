@@ -3,7 +3,7 @@ package Lvl1;
 /* EJERCICIO 3:
 Confeccionar un programa que dado un número entero
 como dato de entrada imprima la secuencia de números
- (incrementos de 1)
+(incrementos de 1)
  */
 import java.util.Scanner;
 
