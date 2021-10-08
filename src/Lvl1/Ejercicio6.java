@@ -13,9 +13,8 @@ public class Ejercicio6 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        int base;
-        int potencia;
-        int resultado;
+        int base, potencia, resultado;
+
 
         System.out.println("Ingrese un numero: ");
         base = entrada.nextInt();

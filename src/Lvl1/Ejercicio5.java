@@ -10,10 +10,8 @@ import java.util.Scanner;
 public class Ejercicio5 {
     public static void main(String[] args) {
 
-        int num1;
-        int num2;
-        int resultado;
-        int i;
+        int num1, num2, resultado, i;
+
 
         Scanner entrada = new Scanner(System.in);
 

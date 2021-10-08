@@ -28,7 +28,7 @@ public class Ejercicio8 {
          System.out.println("Ciudad: ");
          String Ciudad = scan.nextLine();
 
-         System.out.print(Ciudad + " - " + Direccion + " - "+ Edad + " - " + NombreYApellido);
+         System.out.print(NombreYApellido + " - " + Edad + " - "+ Ciudad + " - " + NombreYApellido);
 
 
 

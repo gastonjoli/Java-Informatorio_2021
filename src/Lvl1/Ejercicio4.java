@@ -10,9 +10,7 @@ import java.util.Scanner;
 public class Ejercicio4 {
     public static void main(String[] args) {
 
-        int num;
-        int fac;
-        int i;
+        int num, fac, i;
 
         Scanner entrada = new Scanner(System.in);
 

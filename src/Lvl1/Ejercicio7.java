@@ -18,7 +18,7 @@ public class Ejercicio7 {
         String palabra = scan.nextLine();
 
 
-        String MAY = "";
+        String MAY = "QWERTYUIOPASDFGHJKLÑZXCVBNM";
 
         String min = "qwertyuiopasdfghjklñzxcvbnm";
 

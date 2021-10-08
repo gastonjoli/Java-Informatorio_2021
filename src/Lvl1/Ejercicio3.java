@@ -11,9 +11,7 @@ public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner entrada  = new Scanner(System.in);
 
-        int i;
-        int n;
-        int num;
+        int i, n, num;
 
         System.out.println("Ingrese un numero entero: ");
 

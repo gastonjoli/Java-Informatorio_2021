@@ -27,6 +27,7 @@ public class Ejercicio1 {
     }
 
     public static void listaFavoritas(List<String>  ciudades) {
+
         ciudades.add("Salta");
         ciudades.add("Carlos Paz");
         ciudades.add("Resistencia");
