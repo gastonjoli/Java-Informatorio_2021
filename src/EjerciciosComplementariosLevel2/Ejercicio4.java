@@ -12,7 +12,6 @@ public class Ejercicio4 {
 
     public static void main(String[] args) {
 
-
         List<String> alumnos = new ArrayList<>();
 
         alumnos.add("Gaston");
@@ -38,39 +37,23 @@ public class Ejercicio4 {
         System.out.println("Alumnos del Curso  1");
         System.out.println("________________________________");
 
-        for (String l1 : lista1) {
+        for (var l1 : lista1) {
 
             System.out.println(l1);
-
         }
-
-
         System.out.println("________________________________");
         System.out.println("Alumnos del Curso 2");
         System.out.println("________________________________");
 
-        for (String l2 : lista2) {
-
+        for (var l2 : lista2) {
             System.out.println(l2);
-
         }
-
         System.out.println("________________________________");
         System.out.println("Alumnos del Curso 3");
         System.out.println("________________________________");
 
-
-
-        for (String l3 : lista3) {
-
+        for (var l3 : lista3) {
             System.out.println(l3);
-
         }
-
-
-
-
-
-
     }
 }

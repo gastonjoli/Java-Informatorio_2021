@@ -10,29 +10,21 @@ import java.util.Scanner;
 public class Ejercicio5 {
     public static void main(String[] args) {
 
-        int num1, num2, resultado, i;
-
+        int num1, num2, resultado;
 
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Ingrese un número entero: ");
-
          num1 = entrada.nextInt();
 
         System.out.println("Ingrese otro número entero: ");
-
          num2 = entrada.nextInt();
 
          resultado = 0;
 
-        for ( i= 0; i < num1; ++i){
-
+        for ( int i= 0; i < num1; ++i){
             resultado += num2;
-
         }
-
         System.out.println(num1 + " x " + num2 + " = " + resultado);
-
-
     }
 }

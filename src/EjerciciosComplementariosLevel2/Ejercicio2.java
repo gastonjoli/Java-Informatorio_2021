@@ -16,7 +16,6 @@ public class Ejercicio2 {
 
         List<String> numeros = new ArrayList<>();
 
-
         numeros.add("0");
         numeros.add("25");
         numeros.add("50");
@@ -28,22 +27,14 @@ public class Ejercicio2 {
         for (String numero : numeros) {
 
             System.out.println(numero);
-
         }
-
         numeros.add(0,"-5");
         numeros.add(6,"125");
-
 
         System.out.println(" El tamaño final de  la lista es: " + numeros.size());
 
         for (int i = 0; i < numeros.size(); ++i) {
-
             System.out.println(numeros.get(i));
-
         }
-
     }
-
-
 }

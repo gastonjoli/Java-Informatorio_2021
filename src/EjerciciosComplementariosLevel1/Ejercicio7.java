@@ -15,12 +15,12 @@ public class Ejercicio7 {
 
         System.out.println("Escriba una palabara en minuscula: ");
 
-        String palabra = scan.nextLine();
+        var palabra = scan.nextLine();
 
 
-        String MAY = "QWERTYUIOPASDFGHJKLÑZXCVBNM";
+        var MAY = "QWERTYUIOPASDFGHJKLÑZXCVBNM";
 
-        String min = "qwertyuiopasdfghjklñzxcvbnm";
+        var min = "qwertyuiopasdfghjklñzxcvbnm";
 
         for (int i = 0; i < palabra.length(); ++i) {
 

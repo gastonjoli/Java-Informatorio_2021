@@ -9,9 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ejercicio1 {
-
     public static void main(String[] args) {
-
         List<String> ciudades = new ArrayList<>();
 
         listaFavoritas(ciudades);
@@ -21,11 +19,8 @@ public class Ejercicio1 {
         for (String fav : ciudades) {
 
             System.out.println("#"+ (cont += 1) + " - " +fav);
-
         }
-
     }
-
     public static void listaFavoritas(List<String>  ciudades) {
 
         ciudades.add("Salta");

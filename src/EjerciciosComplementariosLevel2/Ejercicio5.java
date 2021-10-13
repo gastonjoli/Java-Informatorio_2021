@@ -22,12 +22,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ejercicio5 {
-
     public static void main(String[] args) {
 
             Integer[] horasTrabajadas = {6,7,8,4,5};    //Array 1
             Integer[] valorxHora = {350,345,550,600,320};   //Array 2
             List<Integer> dias = new ArrayList<>(); 
+
             int total = 0;
 
             for (int i = 0; i < valorxHora.length; i++) {
@@ -35,12 +35,9 @@ public class Ejercicio5 {
                 int precioDia = valorxHora[i] * horasTrabajadas[i];
                 dias.add(precioDia);
                 total = total + precioDia;
-
             }
             System.out.println(dias);
             System.out.println("Total final: $ "+total);
-
-
         }
 }
         

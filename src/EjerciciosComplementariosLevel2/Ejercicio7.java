@@ -17,42 +17,27 @@ import java.util.List;
 public class Ejercicio7 {
 
     public static void main(String[] args) {
-
         System.out.println(numMulti());
-
     }
 
     private static List<String> numMulti() {
-
         List<String> listaNum = new ArrayList<>();
 
         for (int i = 1; i < 8; ++i) {
-
             String l = String.valueOf(i);
 
             if (i%2 == 0 && i%3 == 0 ) {
-
                 l = "FizzBazz";
-
             }
             else if (i%2 == 0) {
-
                 l = "Fizz";
             }
-
             else if ( i%3 == 0) {
-
                 l = "Buzz";
             }
-
             listaNum.add(l);
-
         }
-
         return listaNum;
-
     }
-
-
 }
 

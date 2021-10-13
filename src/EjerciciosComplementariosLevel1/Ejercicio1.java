@@ -12,14 +12,9 @@ public class Ejercicio1 {
 
         Scanner entrada = new Scanner(System.in);
 
-        String nombre;
-
         System.out.println( "Ingrese su nombre: ");
-
-        nombre  = entrada.nextLine();
+        var nombre  = entrada.nextLine();
 
         System.out.println("Hola "+nombre);
-
     }
-
 }

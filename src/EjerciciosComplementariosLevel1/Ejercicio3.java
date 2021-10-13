@@ -10,20 +10,14 @@ import java.util.Scanner;
 public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner entrada  = new Scanner(System.in);
-
-        int i, n, num;
+        int num;
 
         System.out.println("Ingrese un numero entero: ");
-
         num = entrada.nextInt();
 
-
-        for (i = 1 ; i <=num; ++i){
-
-            for ( n = 1; n <= i; ++n) {
-
+        for (int i = 1 ; i <=num; ++i){
+            for ( int n = 1; n <= i; ++n) {
                 System.out.print(n);
-
             }
             System.out.println(" ");
         }

@@ -9,24 +9,14 @@ import java.util.Scanner;
 
 public class Ejercicio4 {
     public static void main(String[] args) {
-
-
-
         Scanner entrada = new Scanner(System.in);
-
         System.out.println("Ingrese un numero entero: ");
 
-         int num = entrada.nextInt();
-
-         int fac = 1;
-
-        for (int i = 1; i <= num; ++i){
-
-            fac *=i;
-
+         int numero = entrada.nextInt();
+         int factorial = 1;
+        for (int i = 1; i <= numero; ++i){
+            factorial *=i;
         }
-
-        System.out.println(fac);
-
+        System.out.println(factorial);
     }
 }

@@ -17,16 +17,16 @@ public class Ejercicio8 {
          Scanner scan = new Scanner(System.in);
 
          System.out.println("Nombre y Apellido: ");
-         String NombreYApellido = scan.nextLine();
+         var NombreYApellido = scan.nextLine();
 
          System.out.println("Edad: ");
-         String Edad = scan.nextLine();
+         var Edad = scan.nextLine();
 
          System.out.println("Dirección: ");
-         String Direccion = scan.nextLine();
+         var Direccion = scan.nextLine();
 
          System.out.println("Ciudad: ");
-         String Ciudad = scan.nextLine();
+         var Ciudad = scan.nextLine();
 
          System.out.print(Ciudad + " - " + Direccion+ " - "+ Edad + " - " + NombreYApellido);
 

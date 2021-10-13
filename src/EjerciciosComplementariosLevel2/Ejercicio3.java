@@ -16,11 +16,9 @@ import java.util.Collections;
 
 
 public class Ejercicio3 {
-
     public static void main(String[] args) {
 
         List<String> cartas = new ArrayList<>();
-
 
         cartas.add("1");
         cartas.add("2");
@@ -40,35 +38,26 @@ public class Ejercicio3 {
         System.out.println("Mazo inicial");
         System.out.println("♦♦♤♤♣♣♢♥♥♥♥♢♣♣♤♤♦♦");
 
-
-        for (String carta : cartas) {
-
-            System.out.println("naipe - " + carta);
-
+        for (var carta : cartas) {
+            System.out.println("carta - " + carta);
         }
-
-
         System.out.println("♦♦♤♤♣♣♢♥♥♥♥♢♣♣♤♤♦♦");
         System.out.println("Mazo de Fin a Inicio ");
         System.out.println("♦♦♤♤♣♣♢♥♥♥♥♢♣♣♤♤♦♦");
 
-
         for (int i = cartas.size() -1; i >= 0; --i){
-
-            System.out.println("naipe - " + cartas.get(i));
-
+            System.out.println("carta - " + cartas.get(i));
         }
 
         System.out.println("♦♦♤♤♣♣♢♥♥♥♥♢♣♣♤♤♦♦");
         System.out.println("Mazo Mezclado ");
         System.out.println("♦♦♤♤♣♣♢♥♥♥♥♢♣♣♤♤♦♦");
 
+        Collections.shuffle(cartas);
 
-        Collections.sort(cartas);
+        for (var carta : cartas) {
 
-        for (String carta : cartas) {
-
-            System.out.println("Naipe - " + carta);
+            System.out.println("carta - " + carta);
 
         }
 
