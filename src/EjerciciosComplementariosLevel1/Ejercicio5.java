@@ -19,6 +19,7 @@ public class Ejercicio5 {
 
         System.out.println("Ingrese otro número entero: ");
          num2 = entrada.nextInt();
+        entrada.close();
 
          resultado = 0;
 

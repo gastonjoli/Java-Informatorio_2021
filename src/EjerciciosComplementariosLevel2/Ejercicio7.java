@@ -19,7 +19,6 @@ public class Ejercicio7 {
     public static void main(String[] args) {
         System.out.println(numMulti());
     }
-
     private static List<String> numMulti() {
         List<String> listaNum = new ArrayList<>();
 

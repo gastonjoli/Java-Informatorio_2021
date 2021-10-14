@@ -11,12 +11,12 @@ public class Ejercicio7 {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
 
         System.out.println("Escriba una palabara en minuscula: ");
+        entrada.close();
 
-        var palabra = scan.nextLine();
-
+        var palabra = entrada.nextLine();
 
         var MAY = "QWERTYUIOPASDFGHJKLÑZXCVBNM";
 

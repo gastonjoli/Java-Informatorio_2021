@@ -14,33 +14,23 @@ import java.util.Scanner;
 public class Ejercicio8 {
 
      public static void main(String[] args) {
-         Scanner scan = new Scanner(System.in);
+         Scanner entrada = new Scanner(System.in);
 
          System.out.println("Nombre y Apellido: ");
-         var NombreYApellido = scan.nextLine();
+         var NombreYApellido = entrada.nextLine();
 
          System.out.println("Edad: ");
-         var Edad = scan.nextLine();
+         var Edad = entrada.nextLine();
 
          System.out.println("Dirección: ");
-         var Direccion = scan.nextLine();
+         var Direccion = entrada.nextLine();
 
          System.out.println("Ciudad: ");
-         var Ciudad = scan.nextLine();
+         var Ciudad = entrada.nextLine();
 
          System.out.print(Ciudad + " - " + Direccion+ " - "+ Edad + " - " + NombreYApellido);
-
-
-
+         entrada.close();
      }
-
-
-
-
-
-
-
-
  }
 
 

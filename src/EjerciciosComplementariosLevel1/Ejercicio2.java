@@ -17,6 +17,7 @@ public class Ejercicio2 {
          num1 = entrada.nextInt();
         System.out.println("Ingrese otro numero entero: ");
          num2 = entrada.nextInt();
+        entrada.close();
 
         System.out.println("La Suma = " + (num1+num2));
         System.out.println("La Resta = " + (num1-num2));

@@ -19,6 +19,7 @@ public class Ejercicio1 {
         for (String fav : ciudades) {
 
             System.out.println("#"+ (cont += 1) + " - " +fav);
+
         }
     }
     public static void listaFavoritas(List<String>  ciudades) {

@@ -38,7 +38,6 @@ public class Ejercicio4 {
         System.out.println("________________________________");
 
         for (var l1 : lista1) {
-
             System.out.println(l1);
         }
         System.out.println("________________________________");

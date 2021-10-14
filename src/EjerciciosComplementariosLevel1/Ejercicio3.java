@@ -14,6 +14,7 @@ public class Ejercicio3 {
 
         System.out.println("Ingrese un numero entero: ");
         num = entrada.nextInt();
+        entrada.close();
 
         for (int i = 1 ; i <=num; ++i){
             for ( int n = 1; n <= i; ++n) {

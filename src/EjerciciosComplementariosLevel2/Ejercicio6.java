@@ -18,66 +18,47 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
-
-
-public class Ejercicio6 {
-
+public class  Ejercicio6 {
 
     public static void main(String[] args) {
 
         Set<Empleado> empleados = new HashSet<>();
         Map<String, Integer> sueldoTotal = new HashMap<>();
 
-        Empleado e1 = new Empleado("Brian", "7200", 50, 350);
-        Empleado e2 = new Empleado("Jose", "3500", 35, 548);
+        Empleado e1 = new Empleado("Brian", "32698745", 50, 350);
+        Empleado e2 = new Empleado("Jose", "35487459", 35, 548);
 
         empleados.add(e1);
         empleados.add(e2);
 
         for (Empleado empleado : empleados) {
-
             System.out.println(empleado);
         }
-
         sueldoTotal.put(e1.obtDni(), e1.sueldo());
         sueldoTotal.put(e2.obtDni(), e2.sueldo());
 
         System.out.println(sueldoTotal);
-
     }
-
 }
-
 class Empleado {
-
     int valorPorHora, horasTrabajadas;
     String nombre, dni;
 
+    public Empleado(String _nombre, String _dni, int _horasTrabajadas, int _valorPorHora){
 
-    public Empleado(String nombre, String dni, int horasTrabajadas, int valorPorHora){
-
-        this.nombre = nombre;
-        this.dni = dni;
-        this.horasTrabajadas = horasTrabajadas;
-        this.valorPorHora = valorPorHora;
+        nombre = _nombre;
+        dni = _dni;
+        horasTrabajadas = _horasTrabajadas;
+        valorPorHora = _valorPorHora;
     }
-
-    @Override
     public String toString() {
         return this.nombre +" : Dni: " + this.dni + " - " + this.horasTrabajadas + "Hs - $" + this.valorPorHora;
     }
-
     public int sueldo(){
-
         return this.horasTrabajadas * this.valorPorHora;
-
     }
-
     public String obtDni(){
 
         return this.dni;
-
     }
-
 }

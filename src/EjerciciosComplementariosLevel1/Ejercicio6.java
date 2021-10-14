@@ -20,6 +20,7 @@ public class Ejercicio6 {
 
         System.out.println("Indique a que potencia lo desea elevar: ");
         potencia = entrada.nextInt();
+        entrada.close();
 
         resultado = multiplicacion(base, potencia);
 

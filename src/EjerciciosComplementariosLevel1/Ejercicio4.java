@@ -11,6 +11,7 @@ public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Ingrese un numero entero: ");
+        entrada.close();
 
          int numero = entrada.nextInt();
          int factorial = 1;
