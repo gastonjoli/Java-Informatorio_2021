@@ -14,8 +14,6 @@ public class Ejercicio1 {
         System.out.println( "Ingrese su nombre: ");
         var nombre  = entrada.nextLine();
         entrada.close();
-
-
         System.out.println("Hola "+nombre);
     }
 
