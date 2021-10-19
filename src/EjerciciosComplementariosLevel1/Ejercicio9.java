@@ -16,8 +16,8 @@ public class Ejercicio9 {
         char[] letras = texto.toCharArray();
         int cantidad = 0;
 
-        for (int i = 0; i < letras.length; i++){
-            if (letras[i] == caracter){
+        for (char letra : letras) {
+            if (letra == caracter) {
                 cantidad++;
             }
         }
