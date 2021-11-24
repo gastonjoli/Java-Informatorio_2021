@@ -11,16 +11,16 @@ public class Ejercicio5 {
         List<Alumnos> alumnos = List.of(
                 new Alumnos("Homero", "Simpson", LocalDate.now().minusYears(30)),
                 new Alumnos("Moe", "Szyslak", LocalDate.of(1956, 5, 12)),
-                new Alumnos("Bob", "Patiño", LocalDate.of(1990, 2, 10)),
-                new Alumnos("Maggie", "Simpson", LocalDate.of(2001, 3, 30)),
-                new Alumnos("Marge", "Bouvier", LocalDate.of(1954, 2, 5)),
-                new Alumnos("Marvin", "Monroe", LocalDate.of(1945, 7, 21)),
-                new Alumnos("Selma", "Bouvier", LocalDate.of(1911, 11, 11)));
-        Map<String, Integer> alumnosConEdades = alumnos.stream()
+                new Alumnos("Bob", "Patiño", LocalDate.of(1974, 2, 10)),
+                new Alumnos("Alcalde", "Diamante", LocalDate.of(2001, 3, 30)),
+                new Alumnos("Marge", "Bouvier", LocalDate.of(1984, 2, 5)),
+                new Alumnos("Ned", "Flanders", LocalDate.of(1975, 7, 21)),
+                new Alumnos("Selma", "Bouvier", LocalDate.of(1981, 11, 11)));
+        Map<String, Integer> alumnosAndEdades = alumnos.stream()
                 .collect(Collectors
                         .toMap(p-> (p.getName() + " " + p.getSurname()),
                                 p -> Ejercicio5.getEdad(p.getBirthday())));
-        System.out.println(alumnosConEdades);
+        System.out.println(alumnosAndEdades);
     }
 
     public static Integer getEdad(LocalDate birthDate){
