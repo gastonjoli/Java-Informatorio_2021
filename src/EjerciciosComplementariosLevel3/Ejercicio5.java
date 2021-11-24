@@ -12,7 +12,7 @@ public class Ejercicio5 {
                 new Alumnos("Homero", "Simpson", LocalDate.now().minusYears(30)),
                 new Alumnos("Moe", "Szyslak", LocalDate.of(1956, 5, 12)),
                 new Alumnos("Bob", "Patiño", LocalDate.of(1974, 2, 10)),
-                new Alumnos("Alcalde", "Diamante", LocalDate.of(2001, 3, 30)),
+                new Alumnos("Alcalde", "Diamante", LocalDate.of(2000, 3, 30)),
                 new Alumnos("Marge", "Bouvier", LocalDate.of(1984, 2, 5)),
                 new Alumnos("Ned", "Flanders", LocalDate.of(1975, 7, 21)),
                 new Alumnos("Selma", "Bouvier", LocalDate.of(1981, 11, 11)));
